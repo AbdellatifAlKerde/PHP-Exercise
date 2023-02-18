@@ -1,4 +1,5 @@
 <?php  
+function isArmstrong() {
 $num = readline("Enter a number: ");  
 $total = 0;  
 $x = $num;  
@@ -13,3 +14,5 @@ echo "Yes it is an Armstrong number\n";
 else  {  
 echo "No it is not an armstrong number\n";  
 }  
+}
+isArmstrong();
