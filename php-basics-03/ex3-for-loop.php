@@ -1,13 +1,15 @@
 <?php
 
-for ($i = 1; $i <= 7; $i++) {
-    for ($j = 1; $j <= 7; $j++) {
-        if ($i == 1 || $i == 7 || $j == (8 - $i)) {
-            echo "*";
-        } else {
-            echo " ";
-        }
-    }
-    echo "\n";
+for ($i = 1; $i <= 5; $i++) {
+  for ($j = 1; $j <= $i; $j++) {
+    echo "*";
+  }
+  echo "\n"; 
 }
 
+for ($i = 4; $i >= 1; $i--) {
+  for ($j = 1; $j <= $i; $j++) {
+    echo "*";
+  }
+  echo "\n"; 
+}
